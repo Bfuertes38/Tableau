@@ -1,0 +1,35 @@
+Access project at https://public.tableau.com/app/profile/brianna.fuertes/viz/TableauProjectDataandOrderAnalytics/OrdersCreatedPerDayByProduct
+
+# For this project I am using the data  that was given in a ZIP file from the course Break Into Tech by Charlotte Chaze and imported into SQLite on my PC. It is a database of a company that sells 
+From here I used SQLite to gather the account numbers, the count of order IDs, product, quantity, price, order date, and location for all orders that were placed in February. This is shown in the example below:
+SELECT 
+cust.acctnum
+,count(cust.order_ID) as Orders
+,Feb.Product
+,Feb.Quantity
+,Feb.price
+,Feb.orderdate
+,Feb.location
+FROM BIT_DB.customers cust
+
+INNER JOIN BIT_DB.FebSales Feb
+ON cust.order_id=FEB.orderid
+
+GROUP BY 
+cust.acctnum
+,Feb.Product
+,Feb.Quantity
+,Feb.price
+,Feb.orderdate
+,Feb.location
+
+
+Form there I connected the Two databases in Tableau for sales in February and Customer information. And began to label and filter my columns.
+I was looking to gather the answers to the questions listed below
+•	How many orders were created per day in February?-Sheet 1
+•	What are the number of sales based by the City?-Sheet 2
+•	What were the most popular products in February?
+•	How many accounts placed an order in February Alone?
+You can see as per my Tableau spreadsheet listed here I was able to successfully gather all of the details needed to present in a clear and concise manner. 
+
+
