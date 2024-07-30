@@ -1,0 +1,13 @@
+#Acess the link for the dashboard here: https://public.tableau.com/app/profile/brianna.fuertes/viz/ProfitandSalesDataSuperstore/Overview
+
+
+#This is a more advanced dashboard that I have created.  
+The data has been sourced from the Tableau website and uses  a mock superstore database, which includes various fields such as product information, sales data, and customer details. This data can be filtered by region, city, and state/postal code.  
+I have developed a dashboard that highlights my ability to compile many categories of information to provide a clear representation of the data. The additional worksheets will provide detailed insights into the data I have used to summarize and present it effectively.  
+
+The data is organized into several sections, including:  
+• Key Performance Indicators showcasing sales and profit by region, categorized for clarity  
+• Sales by category  
+• Profit ratio by geography ( noting the map has been integrated with the “Average Profit by State” worksheet as well)  
+• Average profit by state
+
